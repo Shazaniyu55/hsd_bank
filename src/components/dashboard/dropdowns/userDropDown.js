@@ -31,7 +31,7 @@ const UserDropdown = () => {
             <img
               alt="..."
               className="w-full rounded-full align-middle border-none shadow-lg"
-              src="/svg/user.svg"
+              src="/user.svg"
             />
           </span>
         </div>
