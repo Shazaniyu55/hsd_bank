@@ -12,7 +12,7 @@ function Hero(){
                 backgroundSize: 'cover', // This makes the image cover the entire div
                 backgroundPosition: 'center', // Center the image
                 backgroundRepeat: 'no-repeat',
-                width: '800px' // Prevents the image from repeating
+                width: '650px' // Prevents the image from repeating
               }}
             >
 
