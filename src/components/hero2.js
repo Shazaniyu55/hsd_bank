@@ -33,11 +33,11 @@ function Hero(){
             <div className="">
             <div className="bg-gray-700 h-80">
             <h1 className="text-3xl md:text-4xl font-bold text-white text-center lg:text-left">Our commitment</h1>
-               <p className="text-white">Curtain up on our commitment With over 400 commitments, we take part in regional development and coexistence. Experience culture, sport and nature experiences in our beautiful canton with a discount of up to 50%.</p>
+               <p className="text-white m-4 ">Curtain up on our commitment With over 400 commitments, we take part in regional development and coexistence. Experience culture, sport and nature experiences in our beautiful canton with a discount of up to 50%.</p>
                <hr/>
 
-               <p className="text-white">Earn more with our competitive CD rates <br/> 4.80% APY 12-month CD.</p>
-               <p className="text-white">4.80% APY 12-month CD</p>
+               <p className="text-white m-4">Earn more with our competitive CD rates <br/> 4.80% APY 12-month CD.</p>
+               <p className="text-white m-4">4.80% APY 12-month CD</p>
             </div>
             </div>
         </div>
