@@ -54,10 +54,9 @@ const AcademyCard = () => {
                 }}
               ></div>
             </div>
-            <h3 className="text-2xl mb-4">Access the world with one account</h3>
+            <h3 className="text-2xl mb-4">A wide array of investment</h3>
             <p className="text-gray-600 ">
-            Make online transactions in eight different currencies from the convenience of the HSBC Mobile Banking App with your Global Money Account.
-            </p>
+            International insight and experience to help you make informed investment decisions.            </p>
           </div>
         </div>
 
@@ -79,10 +78,9 @@ const AcademyCard = () => {
                   }}
                 ></div>
               </div>
-              <h3 className="text-2xl mb-4">Access the world with one account</h3>
+              <h3 className="text-2xl mb-4">Mobile banking app</h3>
               <p className="text-gray-600 ">
-              Make online transactions in eight different currencies from the convenience of the HSBC Mobile Banking App with your Global Money Account.
-              </p>
+              Download the HSBC US Mobile Banking App for an improved banking experience on the go.              </p>
             </div>
           </div>
           {/**card 4 */}
