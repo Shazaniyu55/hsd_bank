@@ -124,14 +124,7 @@ function NavBar({ backgroundColor, imageSrc }) {
                       </Link>
                     </div>
                   </li>
-                  <li className={`text-sm ${activeNavItem === 'financial' ? 'active' : ''}`}>
-                    <div className="flex items-center">
-                      <FiDollarSign className='mr-2' size={30} />
-                      <Link href="/" onClick={() => handleClick('financial')}>
-                        Financial Info
-                      </Link>
-                    </div>
-                  </li>
+                 
                   <li className={`text-sm ${activeNavItem === 'ebanking' ? 'active' : ''}`}>
                     <div className="flex items-center">
                       <FiCreditCard className='mr-2' size={30} />
