@@ -6,12 +6,12 @@ import {FaFacebook, FaLinkedinIn, FaTwitter, FaInstagramSquare} from 'react-icon
 
 const Footer = () => {
   return (
-    <footer className="border-t border-blu-600 border-neutral-200 bg-white mt-20  px-5 md:px-16 py-10 md:py-16">
+    <footer className="border-t border-blu-600 border-neutral-200 bg-black mt-20  px-5 md:px-16 py-10 md:py-16">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           
 
-          <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4 text-blue-800">
+          <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4 text-white">
             <div>
               <p className="font-medium">Services</p>
               <nav className="flex flex-col text-xs font-medium mt-4 space-y-2 text-sm">
@@ -230,38 +230,7 @@ const Footer = () => {
             </div>
 
 
-            <div>
-            <p className="max-w-xs mt-4 font-bold text-blue-800">
-              Follow Us!
-            </p>
-            <div className="flex mt-2 space-x-6 text-blue-600">
-              <Link
-                href=""
-                target="_blank"
-              >
-                <FaFacebook size={20} className="hover:text-blue-600 hover:-translate-y-1 transition-all" />
-              </Link>
-             
-              <Link
-                href=""
-                target="_blank"
-              >
-                <FaLinkedinIn size={20} className="hover:text-blue-400 hover:-translate-y-1 transition-all" />
-              </Link>
-              <Link href="" target="_blank">
-                <FaTwitter size={20} className="hover:text-blue-600 hover:-translate-y-1 transition-all" />
-              </Link>
-              <Link
-                href=""
-                target="_blank"
-              >
-                <FaInstagramSquare size={20} className="hover:text-blue-600 hover:-translate-y-1 transition-all" />
-              </Link>
-            </div>
-
-            <p className="leading-loose tracking-tighter  leading-normal mt-8 text-xs text-blue-600">
-        </p>
-          </div>
+          
 
             
 
@@ -275,21 +244,13 @@ const Footer = () => {
       </div>
 
 
-      <section className="w-full border-t md:grid grid-cols-2 gap-4 border-blue-500 bg-white ">
+      <section className="w-full border-t md:grid grid-cols-2 gap-4 border-blue-500 bg-black ">
         <div className="mt-4">
-        <p className="leading-loose tracking-tighter line-clamp-3 leading-normal text-xs text-blue-600">© Zürcher Kantonalbank 1995 - 2024</p>         
+        <p className="leading-loose tracking-tighter line-clamp-3 leading-normal text-xs text-white">© Hsd 1995 - 2024</p>         
         </div>
 
 
-           <div className='mt-4'>
-                        <ul className=' items-center cursor-pointer  text-xs justify-center md:flex md:space-x-10 md:space-y-0'>
-                          <li className='text-blue-600  hover:text-blue-400'>Cookie settings</li>
-                          <li className='text-blue-600 hover:text-blue-400'>Legal</li>
-                          <li className='text-blue-600 hover:text-blue-400'>data protection</li>
-                          <li className='text-blue-600 hover:text-blue-400'>Cookie and tracking policy</li>
-                          <li className='text-blue-600 hover:text-blue-400'>General information</li>
-                        </ul>
-                      </div>
+           
       </section>
     </footer>
   );
