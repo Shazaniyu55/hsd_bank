@@ -22,32 +22,7 @@ const Footer = () => {
                   Help area
                 </Link>
 
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Contact
-                </Link>
-              
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Search
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Interest rates and prices
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Jobs & Careers
-                </Link>
+                
 
                 
               </nav>
@@ -61,39 +36,7 @@ const Footer = () => {
                 >
                   zoo
                 </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Zurich bike
-
-                </Link>
-                <Link
-                  href="/purewater"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                 ZKB Zurich Run Cup
-                </Link>
-                <Link
-                  href="/printing"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  ZVV night network
-                </Link>
-
-                <Link
-                  href="/printing"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Zurich hiking trails
-                </Link>
-
-                <Link
-                  href="/printing"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Our commitments
-                </Link>
+                
 
                 
                
@@ -108,44 +51,7 @@ const Footer = () => {
                 >
                   Customer magazine ZH
                 </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  property
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  prevention
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Pension funds currently
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 
-                >
-                frankly precaution
-            
-                </Link>
-
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                
-                >
-                SMEs currently
-            
-                </Link>
 
                 
               </nav>
@@ -160,72 +66,7 @@ const Footer = () => {
                   AXA
 
                 </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Terms &amp; Conditions
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Banking Advisory Center
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Furniture
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Pfandbrief headquarters
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                 Swiss Foundation
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Technopark® Zurich
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Technopark® Winterthur
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Valiant
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Association of Swiss Cantonal Banks
-                </Link>
-
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  VISECA
-                </Link>
+                
               </nav>
             </div>
 
@@ -246,7 +87,7 @@ const Footer = () => {
 
       <section className="w-full border-t md:grid grid-cols-2 gap-4 border-blue-500 bg-black ">
         <div className="mt-4">
-        <p className="leading-loose tracking-tighter line-clamp-3 leading-normal text-xs text-white">© Hsd 1995 - 2024</p>         
+        <p className="leading-loose tracking-tighter line-clamp-3 text-center leading-normal text-2xl text-white">© Hsd 1995 - 2024</p>         
         </div>
 
 
