@@ -12,7 +12,7 @@ const AcademyCard2 = () => {
         <div className="md:flex justify-center items-center">
             
           {/* Card 1 */}
-          <div className="md:w-full sm:w-1/4 md:w-1/4 lg:w-1/8 px-4 mb-8">
+          <div className="md:w-full sm:w-1/8 md:w-1/8 lg:w-1/4 px-4 mb-8">
           
             <div className="md:rounded-lg p-6 hover:scale-40 transform transition-transform duration-300">
               <div className="mb-4 relative">
@@ -36,7 +36,7 @@ const AcademyCard2 = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full sm:w-1/4 md:w-1/8 lg:w-1/8 px-4 mb-8">
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/8 px-4 mb-8">
           
           <div className=" rounded-lg p-6 hover:scale-40 transform transition-transform duration-300">
             <div className="mb-4 relative">
@@ -60,7 +60,28 @@ const AcademyCard2 = () => {
         </div>
 
           {/* Card 3 */}
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/8 px-4 mb-8">
           
+            <div className=" rounded-lg p-6 hover:scale-40 transform transition-transform duration-300">
+              <div className="mb-4 relative">
+              <Image src='/sky.jpeg'
+              alt='academy'
+              className="rounded-lg w-full h-40"
+              width={200} height={100}/>
+                
+                {/* Gradient Effect */}
+                <div
+                  className="absolute inset-0"
+                  style={{
+                    background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%)',
+                  }}
+                ></div>
+              </div>
+              <h3 className="text-2xl mb-4">International Services</h3>
+              <p className="text-gray-600 ">
+              Explore HSBC Group's International Services to see how HSBC can help you on your international adventures.              </p>
+            </div>
+          </div>
           {/**card 4 */}
            
         </div>
