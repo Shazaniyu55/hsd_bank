@@ -19,7 +19,7 @@ const Footer = () => {
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Help area
+                  Contact
                 </Link>
 
                 
@@ -28,13 +28,13 @@ const Footer = () => {
               </nav>
             </div>
             <div>
-              <p className="font-medium">Sponsorship</p>
+              <p className="font-medium">Email</p>
               <nav className="flex flex-col text-xs font-medium mt-4 space-y-2 text-sm ">
                 <Link
                   href="/purewater"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  zoo
+                  a0960801911@gmail.com
                 </Link>
                 
 
