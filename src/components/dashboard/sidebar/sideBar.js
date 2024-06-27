@@ -24,21 +24,10 @@ export default function Sidebar() {
   const router = useRouter();
   const dispatch = useDispatch()
 
-  const handleSignout = async () => {
-    try {
-      const res = await fetch('', {
-        method: 'POST',
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        console.log(data.message);
+  const handleSignout =  () => {
+   
         router.push('/')
-      } else {
-        dispatch(signoutSuccess());
-      }
-    } catch (error) {
-      console.log(error.message);
-    }
+     
   };
   return (
     <>
