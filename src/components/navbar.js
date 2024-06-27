@@ -42,49 +42,29 @@ function NavBar({ backgroundColor, imageSrc }) {
                 <p className='text-sm p-2 text-white font-bold tracking-widest'>HSD</p>
 
               </a>
-              <div className={`grid grid-cols-3 gap-4`}>
-                <div className={`pt-2 rounded-md fixed top-2 right-0 mt-4 mr-4 md:hidden ${iconColorClass}`}>
+              <div className="md:hidden text-white">
+                <button className="text-white hover:text-white pt-2 rounded-md" onClick={handleClick}>
                   {navbar ? (
-                    <button onClick={handleClick}>
-                      <svg
-                        className={`icon icon-tabler icon-tabler-letter-x ${iconColorClass}`}
-                        fill="none"
-                        height="34"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        width="34"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M0 0h24v24H0z" fill="none" stroke="none" />
-                        <line x1="7" x2="17" y1="4" y2="20" />
-                        <line x1="17" x2="7" y1="4" y2="20" />
-                      </svg>
-                    </button>
+                    <svg className="text-white hover:text-white icon icon-tabler icon-tabler-letter-x" fill="none" height="24" stroke="currentColor" 
+                    strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" 
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none" stroke="none"/>
+                    <line x1="7" x2="17" y1="4" y2="20"/>
+                    <line x1="17" x2="7" y1="4" y2="20"/>
+                    </svg>
+                    
                   ) : (
-                    <div className="flex items-center space-x-4">
-                      <Link href="/contact">
-                        <FiPhone size={20} className={iconColorClass} />
-                      </Link>
-                      <FiMessageCircle size={20} className={iconColorClass} />
-                      <button onClick={handleClick}>
-                        <svg
-                          width="21"
-                          height="12"
-                          viewBox="0 0 21 8"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <rect width="21" height="2" fill="currentColor" />
-                          <rect y="3" width="21" height="2" fill="currentColor" />
-                          <rect y="6" width="21" height="2" fill="currentColor" />
-                        </svg>
-                      </button>
-                    </div>
+                    <div className='text-white '>
+                    <svg width="21" height="8" viewBox="0 0 21 8" fill="none" 
+                     xmlns="http://www.w3.org/2000/svg">
+                    <rect width="21" height="2" fill="#fff"/>
+                   <rect y="3" width="21" height="2" fill="#fff"/>
+                   <rect y="6" width="21" height="2" fill="#fff"/>
+                   </svg>
+                   </div>
+
                   )}
-                </div>
+                </button>
               </div>
             </div>
           </div>
