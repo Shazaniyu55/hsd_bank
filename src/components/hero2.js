@@ -4,9 +4,9 @@ import Link from "next/link";
 
 function Hero(){
     return(
-        <div className="grid md:grid-cols-2 gap-10 mt-10">
+        <div className="grid md:grid-cols-2 mt-10">
            
-            <div className="md:container w-full mt-10 m-5 p04" 
+            <div className="md:container w-full mt-10" 
               style={{
                 backgroundImage: 'url(/woman.jpg)', // Replace with your image path
                 backgroundSize: 'cover', // This makes the image cover the entire div
@@ -30,8 +30,8 @@ function Hero(){
             </div>
 
 
-            <div className="translate-x-20">
-            <div className="bg-gray-700 h-80 m-10 p-4 ">
+            <div className="">
+            <div className="bg-gray-700 h-80">
             <h1 className="text-3xl md:text-4xl font-bold text-white text-center lg:text-left">Our commitment</h1>
                <p className="text-white">Curtain up on our commitment With over 400 commitments, we take part in regional development and coexistence. Experience culture, sport and nature experiences in our beautiful canton with a discount of up to 50%.</p>
                <hr/>

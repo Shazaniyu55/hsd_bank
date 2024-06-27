@@ -7,12 +7,12 @@ const AcademyCard = () => {
 
 
   return (
-    <div className="bg-white py-12 mt-5">
+    <div className="md:bg-white py-12 mt-5">
       <div className="md:container mx-auto">
-        <div className="md:flex flex-wrap justify-center items-center">
+        <div className="md:flex justify-center items-center">
             
           {/* Card 1 */}
-          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/8 px-4 mb-8">
+          <div className="md:w-full sm:w-1/2 md:w-1/3 lg:w-1/8 px-4 mb-8">
           
             <div className="md:rounded-lg p-6 hover:scale-40 transform transition-transform duration-300">
               <div className="mb-4 relative">
