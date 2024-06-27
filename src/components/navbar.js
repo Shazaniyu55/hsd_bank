@@ -23,7 +23,7 @@ function NavBar({ backgroundColor, imageSrc }) {
     setIsModalOpen(!isModalOpen);
   };
 
-  const bgColorClass = backgroundColor ? `bg-${backgroundColor}` : 'bg-white';
+  const bgColorClass = backgroundColor ? `bg-${backgroundColor}` : 'bg-black';
   const textColorClass = backgroundColor === 'blue-900' ? 'text-white' : 'text-white';
   const hoverTextColorClass = backgroundColor === 'blue-900' ? 'hover:text-gray-300' : 'hover:text-red-300';
   const iconColorClass = backgroundColor === 'blue-900' ? 'text-white' : 'text-white';
