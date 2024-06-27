@@ -1,61 +1,111 @@
-import React from 'react';
-import {FiPhoneCall} from 'react-icons/fi'
-
-
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#6C6C6C] mt-20 h-20">
+    <footer className="bg-black text-white w-full  ">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-          
-
-          <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4 text-white">
-            <div className={`flex-2 justify-self-center pl-2 tracking-tight pb-3 mt-8 md:block md:pb-0 md:mt-0`}>
-            <div className="space-x-4 text-lg">
-            <ul className={`md:px-20 mb-4 mt-2 items-center pr-20 font-medium text-sm justify-center space-y-4 md:flex md:space-x-10 md:space-y-0`}>
-                
-            <li className={`text-sm `}>
-                    <div className="flex items-center">
-                      <FiPhoneCall className='mr-2' size={20} />
-                      <p className="">Contact</p>
-
-                    </div>
-                  </li>
-
-            </ul>
-            </div>
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div>
+            <Link href={"/"} className="text-3xl">
+              <span className="text-blue-600">A</span>DAIN
+            </Link>
+            <p className="max-w-xs mt-4 text-sm">
+              People Technology possibilities
+            </p>
+            <div className="flex mt-8 space-x-6">
+              <Link
+                href="https://www.facebook.com/profile.php?id=100091835923247"
+                target="_blank"
+              >
+                <FaFacebook size={20} className="hover:text-blue-600 hover:-translate-y-1 transition-all" />
+              </Link>
               
-            </div>
-            <div>
-              <p className="font-medium">Sponsorship</p>
-              
-            </div>
-            <div>
-              <p className="font-medium">Newsletter</p>
              
+              <Link href="https://twitter.com/QuickmedNG?s=09" target="_blank">
+                <FaTwitter size={20} className="hover:text-blue-600 hover:-translate-y-1 transition-all" />
+              </Link>
+              <Link
+                href="https://www.instagram.com/quickmed_ng/?igshid=NTc4MTIwNjQ2YQ%3D%3D"
+                target="_blank"
+              >
+                <FaInstagram size={20} className="hover:text-blue-600 hover:-translate-y-1 transition-all" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4">
+            <div>
+              <p className="font-medium">Company</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-sm">
+                <Link
+                  href="/About"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  About
+                </Link>
+                <Link
+                  href="/About"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Our Vision
+                </Link>
+                <Link
+                  href="/About"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Our Mission
+                </Link>
+                <Link
+                  href="/About"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Our Team
+                </Link>
+              </nav>
+            </div>
+            
+            <div>
+              <p className="font-medium">Helpful Links</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-sm ">
+                <Link
+                  href="/"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Contact
+                </Link>
+                <Link
+                  href="/"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  FAQs
+                </Link>
+                <Link
+                  href="/"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Live Chat
+                </Link>
+              </nav>
             </div>
             <div>
-              <p className="font-medium">Partner</p>
-              
+              <p className="font-medium">Legal</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-sm ">
+                
+                <Link
+                  href="/terms"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Terms &amp; Conditions
+                </Link>
+                
+               
+              </nav>
             </div>
-
-
-            
-
-            
-
-
-           
-
-
           </div>
         </div>
-        
+        <p className="mt-8 text-xs">© 2023 Adain  All rights reserved</p>
       </div>
-
-
-      
     </footer>
   );
 };
