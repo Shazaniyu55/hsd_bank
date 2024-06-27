@@ -1,3 +1,4 @@
+import Footer from "@/components/footer"
 import Hero from "@/components/hero2"
 import AcademyCard from "@/components/herocard"
 import NavBar from "@/components/navbar"
@@ -10,6 +11,7 @@ export default function Home() {
     <NavBar imageSrc="/bank.png" backgroundColor="black"/>
     <Hero/>
     <AcademyCard/>
+    <Footer/>
     
     </>
   )
