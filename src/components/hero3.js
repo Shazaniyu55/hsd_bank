@@ -7,7 +7,7 @@ const AcademyCard2 = () => {
 
 
   return (
-    <div className="md:bg-white py-12 mt-5">
+    <div className="md:bg-white py-12">
       <div className="md:container mx-auto">
         <div className="md:flex justify-center items-center">
             
@@ -29,10 +29,9 @@ const AcademyCard2 = () => {
                   }}
                 ></div>
               </div>
-              <h3 className="text-2xl mb-4">Access the world with one account</h3>
+              <h3 className="text-2xl mb-4">Coming To  America</h3>
               <p className="text-gray-600 ">
-              Make online transactions in eight different currencies from the convenience of the HSBC Mobile Banking App with your Global Money Account.
-              </p>
+              What You Need to Know to Get Your Financial House in Order </p>
             </div>
           </div>
 
@@ -54,10 +53,9 @@ const AcademyCard2 = () => {
                 }}
               ></div>
             </div>
-            <h3 className="text-2xl mb-4">Access the world with one account</h3>
+            <h3 className="text-2xl mb-4">Help</h3>
             <p className="text-gray-600 ">
-            Make online transactions in eight different currencies from the convenience of the HSBC Mobile Banking App with your Global Money Account.
-            </p>
+            Find the answers to customer service questions about your account, online banking, security, and more.            </p>
           </div>
         </div>
 
@@ -79,10 +77,9 @@ const AcademyCard2 = () => {
                   }}
                 ></div>
               </div>
-              <h3 className="text-2xl mb-4">Access the world with one account</h3>
+              <h3 className="text-2xl mb-4">International Services</h3>
               <p className="text-gray-600 ">
-              Make online transactions in eight different currencies from the convenience of the HSBC Mobile Banking App with your Global Money Account.
-              </p>
+              Explore HSBC Group's International Services to see how HSBC can help you on your international adventures.              </p>
             </div>
           </div>
           {/**card 4 */}
