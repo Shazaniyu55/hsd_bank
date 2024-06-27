@@ -1,71 +1,60 @@
 import React from "react";
 import Chart from "chart.js/dist/Chart";
 
-export default function CardBarChart() {
+export default function CardPieChart() {
   React.useEffect(() => {
     let config = {
       type: "pie",
       data: {
         labels: [
-          "Credit",
-          "Debit",
-          
+          "Pending Check",
+          "Pending Repair",
+          "Pending",
         ],
         datasets: [
           {
-            label: new Date().getFullYear(),
-            backgroundColor: "#ed64a6",
-            borderColor: "#ed64a6",
-            data: [30, 78, 56, 34, 100, 45, 13],
-            fill: false,
-            barThickness: 8,
-          },
-          {
-            label: new Date().getFullYear() - 1,
-            fill: false,
-            backgroundColor: "#4c51bf",
-            borderColor: "#4c51bf",
-            data: [27, 68, 86, 74, 10, 4, 87],
-            barThickness: 8,
+            label: "Pending Items",
+            backgroundColor: ["#4F9965", "#4c51bf", "#F2994A"],
+            borderColor: "#fff",
+            data: [30, 20, 50], // Adjust data values as per your requirement
           },
         ],
       },
       options: {
         maintainAspectRatio: false,
         responsive: true,
-        title: {
-          display: false,
-          text: "Orders Chart",
-        },
-        tooltips: {
-          mode: "index",
-          intersect: false,
-        },
-        hover: {
-          mode: "nearest",
-          intersect: true,
-        },
-        legend: {
-          labels: {
-            fontColor: "rgba(0,0,0,.4)",
+        plugins: {
+          legend: {
+            position: 'bottom',
           },
-          align: "end",
-          position: "bottom",
-        },
-      }
-      
+          tooltip: {
+            callbacks: {
+              label: function(tooltipItem) {
+                return tooltipItem.label + ': ' + tooltipItem.raw.toFixed(0);
+              }
+            }
+          }
+        }
+      },
     };
-    let ctx = document.getElementById("bar-chart").getContext("2d");
-    window.myBar = new Chart(ctx, config);
-  }, []);
+
+    let ctx = document.getElementById("pie-chart").getContext("2d");
+    window.myPie = new Chart(ctx, config);
+
+    // Clean up function for useEffect
+    return () => {
+      window.myPie.destroy();
+    };
+  }, []); // Empty dependency array to run effect only once
+
   return (
     <>
-      <div className="relative mt-40 flex flex-col bg-white  shadow-lg rounded">
-       <p className="p-4 m-4">Balance Flow</p>
+      <div className="relative mt-40 flex flex-col bg-white shadow-lg rounded">
+        <p className="p-4 m-4">Balance Flow</p>
         <div className="p-4 flex-auto">
           {/* Chart */}
-          <div className="relative h-30-px">
-            <canvas id="bar-chart"></canvas>
+          <div className="relative h-96">
+            <canvas id="pie-chart"></canvas>
           </div>
         </div>
       </div>
