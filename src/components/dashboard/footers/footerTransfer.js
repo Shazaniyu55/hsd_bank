@@ -56,7 +56,7 @@ export default function FooterTransfer() {
               
                 className="bg-red-700 hover:bg-blue-700 w-40 text-white font-bold py-2 px-4 rounded"
               >
-                Pay
+                Transfer
               </button>
 
           </div>
