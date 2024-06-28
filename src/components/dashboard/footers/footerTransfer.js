@@ -1,12 +1,11 @@
-import React from "react";
-import CardBarChart from "../cards/cardBarChart";
-import CardTable from "../cards/cardTable";
-import CardLineChart from "../cards/cardLineChart";
+import React, { Fragment, useState } from "react";
+import MyModal from "@/components/modal";
 
 
 export default function FooterTransfer() {
+  const [showModal, setShowModal] = useState(false)
   return (
-    <>
+    <Fragment>
      {/* <CardLineChart/>
       <CardBarChart/>
       <CardTable/> */}
@@ -17,7 +16,7 @@ export default function FooterTransfer() {
 
           <input
             type="text"
-            placeholder="username"
+            placeholder="Enter account number"
             className="md:w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
             id="username"
             
@@ -25,7 +24,7 @@ export default function FooterTransfer() {
 
       <input
             type="text"
-            placeholder="username"
+            placeholder="pin"
             className="md:w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
             id="username"
             
@@ -35,11 +34,12 @@ export default function FooterTransfer() {
 
           <div className="flex justify-center items-center">
           <button
-          type="submit"
-            className="bg-red-700 hover:bg-blue-700 w-40 text-white font-bold py-2 px-4 rounded"
-          >
-            Next
-          </button>
+          type="button"
+              onClick={()=> setShowModal(true)}
+                className="bg-red-700 hover:bg-blue-700 w-40 text-white font-bold py-2 px-4 rounded"
+              >
+                Pay
+              </button>
 
           </div>
 
@@ -57,7 +57,8 @@ export default function FooterTransfer() {
         </div>
         <div className="w-full xl:w-4/12 px-4">
                 </div>
+                <MyModal isVisible={showModal} onClose={()=>{setShowModal(false)}} />
       </div>
-    </>
+    </Fragment>
   );
 }
