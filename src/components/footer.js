@@ -31,7 +31,7 @@ const Footer = () => {
               <p className="font-medium">Email</p>
               <nav className="flex flex-col text-xs font-medium mt-4 space-y-2 text-sm ">
                 <Link
-                  href="/purewater"
+                  href=""
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
                   hsbccustomreservice@gmail.com
