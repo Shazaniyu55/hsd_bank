@@ -37,7 +37,7 @@ const AcademyCard = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/8 px-4 mb-8">
+          <div className="w-full sm:w-1/8 md:w-1/8 lg:w-1/4 px-4 mb-8">
           
           <div className=" rounded-lg p-6 hover:scale-40 transform transition-transform duration-300">
             <div className="mb-4 relative">
@@ -61,7 +61,7 @@ const AcademyCard = () => {
         </div>
 
           {/* Card 3 */}
-          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/8 px-4 mb-8">
+          <div className="w-full sm:w-1/8 md:w-1/8 lg:w-1/4 px-4 mb-8">
           
             <div className=" rounded-lg p-6 hover:scale-40 transform transition-transform duration-300">
               <div className="mb-4 relative">

@@ -6,7 +6,7 @@ import { FaPlus} from 'react-icons/fa'
 export default function CardStats({
   statSubtitle,
   statTitle,
-  statIconColor,
+  statlast,
 }) {
   const [showModal, setShowModal] = useState(false)
 
@@ -23,18 +23,12 @@ export default function CardStats({
               <span className="font-semibold text-xl text-white">
                 {statTitle}
               </span>
+
+              <p className="font-semibold text-sm text-white">
+                {statlast}
+              </p>
             </div>
-            <div className="relative w-auto pl-4 flex-initial">
-              <button
-              onClick={()=> setShowModal(true)}
-                className={
-                  "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full " +
-                  statIconColor
-                }
-              >
-                <FaPlus scale={50}/>
-              </button>
-            </div>
+          
           </div>
         
         </div>

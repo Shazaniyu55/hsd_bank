@@ -1,10 +1,10 @@
 import React from "react";
-import Chart from "chart.js";
+import Chart from "chart.js/dist/Chart";
 
 export default function CardLineChart() {
   React.useEffect(() => {
     var config = {
-      type: "line",
+      type: "bar",
       data: {
         labels: [
           "January",

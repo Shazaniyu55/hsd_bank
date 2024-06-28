@@ -9,7 +9,7 @@ function Login() {
   const router = useRouter();
   const [username, setUserName] = useState('');
   const [password, setPassword] = useState('');
-    const [isPasswordVisible, setIsPasswordVisible] = useState(false);
+  const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
     function togglePasswordVisibility() {
       setIsPasswordVisible((prevState) => !prevState);
@@ -28,7 +28,7 @@ function Login() {
 
   return (
     <>
-    <NavBar/>
+    <NavBar imageSrc="/bank.png"/>
     <div className="md:flex justify-center items-center mt-20"  style={{
                 backgroundImage: 'url(/woman.jpg)', // Replace with your image path
                 backgroundSize: 'cover', // This makes the image cover the entire div
@@ -63,7 +63,7 @@ function Login() {
     />
 
     <div
-      className="absolute inset-y-0 right-0 flex items-center px-4 text-gray-600"
+      className="absolute inset-y-0 right-8 flex items-center px-4 text-gray-600"
       onClick={togglePasswordVisibility}
     >
       {isPasswordVisible ? (

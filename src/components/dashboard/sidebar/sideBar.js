@@ -157,7 +157,7 @@ export default function Sidebar() {
                       : "text-white hover:text-white")
                   }
                 >
-                  Send Money
+                  Transfer Money
                 </span>
               </Link>
             </li>

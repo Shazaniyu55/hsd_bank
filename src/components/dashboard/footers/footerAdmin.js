@@ -1,11 +1,13 @@
 import React from "react";
 import CardBarChart from "../cards/cardBarChart";
 import CardTable from "../cards/cardTable";
+import CardLineChart from "../cards/cardLineChart";
 
 
 export default function FooterAdmin() {
   return (
     <>
+     <CardLineChart/>
       <CardBarChart/>
       <CardTable/>
       

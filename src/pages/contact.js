@@ -3,15 +3,18 @@ import React from 'react'
 import Link from 'next/link';
 import {FaArrowRight} from 'react-icons/fa'
 import Image from 'next/image';
+import Footer from '@/components/footer';
+import NavBar from '@/components/navbar';
 
 
 
 function Contact(){
 
     return(
-        <div className='m-4 p-4'>
+        <div >
+            <NavBar imageSrc="/bank.png"/>
 
-            <p className='text-sm font-bold text-center  text-blue-700'>Contact options for media, talent and sponsorship</p>
+            <p className='text-sm font-bold text-center mt-20 text-blue-700'>Contact options for media, talent and sponsorship</p>
 
 
             <div className='mt-4'>
@@ -56,7 +59,7 @@ function Contact(){
        
 
             
-
+<Footer/>
         </div>
     );
 }

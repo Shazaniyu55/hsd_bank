@@ -91,9 +91,9 @@ function NavBar({ backgroundColor, imageSrc }) {
                   <li className={`text-sm ${activeNavItem === 'search' ? 'active' : ''}`}>
                     <div className="flex items-center">
                       <FiSearch className='mr-2' size={30} />
-                      <button className="flex items-center">
-                        Search
-                      </button>
+                      <Link href="/about" onClick={() => handleClick('experiences')}>
+                        About
+                      </Link>
                     </div>
                   </li>
                   <li className={`text-sm ${activeNavItem === 'locations' ? 'active' : ''}`}>
