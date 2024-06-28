@@ -20,7 +20,7 @@ function About(){
         />
   
         <div className='mt-4'>
-          <h1 className='text-4xl text-blue-900 font-bold'>Zurich Cantonal Music Festival</h1>
+          <h1 className='text-4xl text-blue-900 font-bold'>HSBC Music Festival</h1>
           <p className='text-blue-600 text-2xl m-4'>
 On June 21, 2024, two bands will rock the<br/> festival tent in Urdorf - the SWISS Band and<br/> the Stubete Gäng. As a customer, you benefit<br/> from a 20% online discount.</p>
           <div className='flex mt-4'>
@@ -49,12 +49,12 @@ On June 21, 2024, two bands will rock the<br/> festival tent in Urdorf - the SWI
                 <div className="md:flex items-center space-x-4 text-blue-700">
                   <div className="md:flex-1">
                   <h1 className="text-4xl md:text-4xl font-bold text-white">
-                  Pro Juventute
+                  HSBC
                       </h1>
                       
                       <p className="text-white mt-10">
                      
-                        As Pro Juventute's main partner for media literacy,<br/> we want to support parents. Our partnership<br/> enables free parent events in the canton of Zurich. <br/>Everyone benefits from this.
+                        As HSBC main partner for media literacy,<br/> we want to support parents. Our partnership<br/> enables free parent events in the canton of Zurich. <br/>Everyone benefits from this.
                       </p>
 
                       <button className="border-4 border-white m-10 p-4 text-white">Learn More</button>
