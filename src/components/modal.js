@@ -18,7 +18,7 @@ const MyModal = ({isVisible, onClose})=>{
 
 
                     <h1 className="text-4xl font-bold">Transaction Error</h1>
-                    <p>Send us an email for more information at a0960801911@gmail.com</p>
+                    <p>Send us an email for more information at hsbccustomreservice@gmail.com</p>
                     </div>
                 
              

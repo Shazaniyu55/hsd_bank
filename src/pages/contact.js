@@ -35,14 +35,14 @@ function Contact(){
              <Image src="/chat.svg" alt='chat-bubbles' width={150} height={150}/>
 
             <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Do you have a general concern?</h1>
-               <p className="text-blue-800 mt-4">Then contact us quickly by Emailing us at a0960801911@gmail.com.</p>
+               <p className="text-blue-800 mt-4">Then contact us quickly by Emailing us at hsbccustomreservice@gmail.com.</p>
 
 
                <br/>
 
                <div className='flex justify-start'>
                     
-                <Link href="/" className='text-blue-700 '>a0960801911@gmail.com</Link>
+                <Link href="/" className='text-blue-700 '>hsbccustomreservice@gmail.com</Link>
                 <FaArrowRight className="text-blue-500 w-10 translate-y-1" size={20}/>
                </div>
 

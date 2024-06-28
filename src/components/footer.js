@@ -34,7 +34,7 @@ const Footer = () => {
                   href="/purewater"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  a0960801911@gmail.com
+                  hsbccustomreservice@gmail.com
                 </Link>
                 
 
