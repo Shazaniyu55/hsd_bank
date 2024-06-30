@@ -1,6 +1,6 @@
 import React from "react";
 
-const MyModal = ({isVisible, onClose})=>{
+const MyModal = ({isVisible, onClose, restricted})=>{
     if(!isVisible) return null;
     const handleClose = (e) =>{
         if(e.target.id === "wrapper") onClose()
@@ -18,7 +18,7 @@ const MyModal = ({isVisible, onClose})=>{
 
 
                     <h1 className="text-4xl font-bold">Transaction Error</h1>
-                    <p>Send us an email for more information at hsbccustomreservice@gmail.com</p>
+                    <p>{restricted}</p>
                     </div>
                 
              

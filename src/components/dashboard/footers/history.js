@@ -5,12 +5,12 @@ import PropTypes from "prop-types";
 
 import TableDropdown from "../dropdowns/tableDropDown";
 
-export default function CardTable({ color }) {
+export default function History({ color }) {
   return (
     <>
       <div
         className={
-          "relative flex flex-col min-w-0 break-words mt-10 w-full mb-6 shadow-lg rounded " +
+          "relative flex flex-col min-w-0 break-words mt-40 w-full mb-6 shadow-lg rounded " +
           (color === "light" ? "bg-secondary" : "bg-blueGray-700 text-white")
         }
       >
@@ -220,10 +220,10 @@ export default function CardTable({ color }) {
   );
 }
 
-CardTable.defaultProps = {
+History.defaultProps = {
   color: "light",
 };
 
-CardTable.propTypes = {
+History.propTypes = {
   color: PropTypes.oneOf(["light", "dark"]),
 };

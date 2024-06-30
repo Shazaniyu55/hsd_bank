@@ -107,7 +107,7 @@ export default function Sidebar() {
          
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
-              <FiUser className='mr-2 text-white' size={20} />
+              <FiBook className='mr-2 text-white' size={20} />
               <Link href="/admin/transfer">
                 <span
                   className={
@@ -117,7 +117,7 @@ export default function Sidebar() {
                       : "text-white hover:text-white")
                   }
                 >
-                  My Account
+                  Transfer
                 </span>
               </Link>
             </li>
@@ -127,16 +127,16 @@ export default function Sidebar() {
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
               <FiDollarSign className='mr-2 text-white' size={20} />
-              <Link href="/admin/transfer">
+              <Link href="/admin/mobiledeposite">
                 <span
                   className={
                     "text-xs  py-3 font-bold block " +
-                    (router.pathname.indexOf("/admin/transfer") !== -1
+                    (router.pathname.indexOf("/admin/mobiledeposite") !== -1
                       ? "text-white hover:text-white"
                       : "text-white hover:text-white")
                   }
                 >
-                  Account summary
+                  Mobile Deposite
                 </span>
               </Link>
             </li>
@@ -148,6 +148,113 @@ export default function Sidebar() {
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
               <FiBook className='mr-2 text-white' size={20} />
+              <Link href="/admin/localtransfer">
+                <span
+                  className={
+                    "text-xs  py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/localtransfer") !== -1
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
+                  }
+                >
+                  Local  Money Transfer
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul>
+
+
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiCreditCard className='mr-2 text-white' size={20} />
+              <Link href="/admin/international">
+                <span
+                  className={
+                    "text-xs  py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/international") !== -1
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
+                  }
+                >
+                  International Transfer 
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul>   
+
+
+          
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiCreditCard className='mr-2 text-white' size={20} />
+              <Link href="/admin/saving">
+                <span
+                  className={
+                    "text-xs  py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/saving") !== -1
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
+                  }
+                >
+                 Saving
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul>      
+
+
+
+
+          
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiCreditCard className='mr-2 text-white' size={20} />
+              <Link href="/admin/crypto">
+                <span
+                  className={
+                    "text-xs  py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/crypto") !== -1
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
+                  }
+                >
+                  Crypto  Deposite 
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul> 
+
+
+
+          
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiCreditCard className='mr-2 text-white' size={20} />
+              <Link href="/admin/history">
+                <span
+                  className={
+                    "text-xs  py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/history") !== -1
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
+                  }
+                >
+                  Transaction History Transfer 
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul> 
+
+
+          
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiUser className='mr-2 text-white' size={20} />
               <Link href="/admin/transfer">
                 <span
                   className={
@@ -157,14 +264,38 @@ export default function Sidebar() {
                       : "text-white hover:text-white")
                   }
                 >
-                  Transfer Money
+                  Profile 
                 </span>
               </Link>
             </li>
             {/* Other navigation items */}
-          </ul>
+          </ul> 
 
 
+
+          
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiCreditCard className='mr-2 text-white' size={20} />
+              <Link href="/admin/card">
+                <span
+                  className={
+                    "text-xs  py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/card") !== -1
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
+                  }
+                >
+                 Virtual Card
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul> 
+
+
+
+          
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
               <FiCreditCard className='mr-2 text-white' size={20} />
@@ -177,12 +308,12 @@ export default function Sidebar() {
                       : "text-white hover:text-white")
                   }
                 >
-                  Virtual Card
+                  Insurance
                 </span>
               </Link>
             </li>
             {/* Other navigation items */}
-          </ul>        
+          </ul> 
 
          
 
