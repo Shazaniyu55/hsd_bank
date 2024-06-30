@@ -255,11 +255,11 @@ export default function Sidebar() {
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
               <FiUser className='mr-2 text-white' size={20} />
-              <Link href="/admin/transfer">
+              <Link href="/admin/profile">
                 <span
                   className={
                     "text-xs  py-3 font-bold block " +
-                    (router.pathname.indexOf("/admin/transfer") !== -1
+                    (router.pathname.indexOf("/admin/profile") !== -1
                       ? "text-white hover:text-white"
                       : "text-white hover:text-white")
                   }
@@ -295,25 +295,7 @@ export default function Sidebar() {
 
 
 
-          
-          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
-            <li className="items-center flex">
-              <FiCreditCard className='mr-2 text-white' size={20} />
-              <Link href="/admin/transfer">
-                <span
-                  className={
-                    "text-xs  py-3 font-bold block " +
-                    (router.pathname.indexOf("/admin/transfer") !== -1
-                      ? "text-white hover:text-white"
-                      : "text-white hover:text-white")
-                  }
-                >
-                  Insurance
-                </span>
-              </Link>
-            </li>
-            {/* Other navigation items */}
-          </ul> 
+    
 
          
 
