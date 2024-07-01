@@ -26,15 +26,18 @@ export default function LocalTransfer() {
       <CardBarChart/>
       <CardTable/> */}
       
-<div className="flex flex-wrap">
+<div className="flex justify-center items-center p-10">
         <div className="md:w-full bg-white mt-40 shadow-lg ">
 
           <h1 className="text-center  font-bold text-2xl">Local Money Transfer</h1>
-          <form className="md:flex flex-col gap-4 mt-10 p-8" onSubmit={handleLogin}>
+          <form className="w-full max-w-md mx-auto p-6 bg-white m-4 p-4 rounded-md" onSubmit={handleLogin}>
 
             
-
-          <input
+          <div className="mb-4">
+        <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
+          Account Number
+        </label>
+        <input
             type="text"
             placeholder="Enter account number"
             className="md:w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
@@ -42,9 +45,18 @@ export default function LocalTransfer() {
             onChange={(e) => setAccountNumber(e.target.value)} 
             
           />
+      </div>
 
 
-<input
+
+
+      
+
+      <div className="mb-4">
+        <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
+          Bank Name
+        </label>
+        <input
             type="text"
             placeholder="Bank Name"
             className="md:w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
@@ -52,10 +64,16 @@ export default function LocalTransfer() {
             onChange={(e) => setAccountNumber(e.target.value)} 
             
           />
+      </div>
 
 
 
 
+      <div className="mb-4">
+        <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
+          Amount
+        </label>
+       
 <input
             type="text"
             placeholder="Enter Amount"
@@ -64,6 +82,10 @@ export default function LocalTransfer() {
             onChange={(e) => setAccountNumber(e.target.value)} 
             
           />
+      </div>
+
+
+
 
    
 

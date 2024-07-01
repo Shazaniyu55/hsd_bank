@@ -26,15 +26,18 @@ export default function Crypto() {
       <CardBarChart/>
       <CardTable/> */}
       
-<div className="flex flex-wrap">
+<div className="flex justify-center items-center p-10">
         <div className="md:w-full bg-white mt-40 shadow-lg ">
 
           <h1 className="text-center  font-bold text-2xl">Crypto Deposite</h1>
-          <form className="md:flex flex-col gap-4 mt-10 p-8" onSubmit={handleLogin}>
+          <form className="w-full max-w-md mx-auto p-6 bg-white m-4 p-4 rounded-md" onSubmit={handleLogin}>
 
-            
 
-          <input
+          <div className="mb-4">
+        <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
+          BTC
+        </label>
+        <input
             type="text"
             placeholder="BTC"
             className="md:w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
@@ -42,9 +45,15 @@ export default function Crypto() {
             onChange={(e) => setAccountNumber(e.target.value)} 
             
           />
+      </div>
 
 
-<input
+
+      <div className="mb-4">
+        <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
+          USD
+        </label>
+        <input
             type="text"
             placeholder="USD"
             className="md:w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
@@ -52,19 +61,32 @@ export default function Crypto() {
             onChange={(e) => setAccountNumber(e.target.value)} 
             
           />
+      </div>
+            
 
-
-
-
-      <label>Upload crypto payment document</label>
-
-       <input
+         
+      <div className="mb-4">
+        <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
+        Upload crypto payment document
+        </label>
+        <input
             type="file"
             className="md:w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
             id="accountNumber"
             onChange={(e) => setAccountNumber(e.target.value)} 
             
           />
+      </div>
+
+
+
+
+
+
+
+      
+
+    
 
    
 

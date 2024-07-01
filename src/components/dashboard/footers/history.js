@@ -89,7 +89,7 @@ export default function History({ color }) {
                   $2,500 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-orange-500 mr-2"></i> pending
+                  <i className="fas fa-circle text-orange-500 mr-2"></i> completed
                 </td>
                
               
@@ -146,7 +146,7 @@ export default function History({ color }) {
                   $3,150 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-red-500 mr-2"></i> delayed
+                  <i className="fas fa-circle text-red-500 mr-2"></i> cancled
                 </td>
                
                 
@@ -174,8 +174,7 @@ export default function History({ color }) {
                   $4,400 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-teal-500 mr-2"></i> on
-                  schedule
+                  <i className="fas fa-circle text-teal-500 mr-2"></i> completed
                 </td>
                
                 

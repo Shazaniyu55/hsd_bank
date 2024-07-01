@@ -48,7 +48,7 @@ export default function MobileDeposite() {
 
 
 
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center mt-10">
           <button
           type="submit"
               
