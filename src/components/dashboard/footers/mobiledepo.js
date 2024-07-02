@@ -26,7 +26,7 @@ export default function MobileDeposite() {
       <CardBarChart/>
       <CardTable/> */}
       
-<div className="flex flex-wrap">
+<div className="flex justify-center items-center p-10">
         <div className="md:w-full bg-blue-600 mt-40 shadow-lg ">
 
           <h1 className="text-center text-white font-bold text-2xl">Mobile Deposite</h1>
