@@ -14,7 +14,7 @@ export default function History({ color }) {
           (color === "light" ? "bg-secondary" : "bg-blueGray-700 text-white")
         }
       >
-        <div className="rounded-t mb-0 px-4 py-3 border-0">
+        <div className="rounded-t bg-blue-600 text-white mt-40 mb-0 px-4 py-3 border-0">
           <div className="flex flex-wrap items-center">
             <div className="relative w-full px-4 max-w-full flex-grow flex-1">
               <h3
@@ -28,7 +28,7 @@ export default function History({ color }) {
             </div>
           </div>
         </div>
-        <div className="block w-full overflow-x-auto">
+        <div className="block w-full bg-blue-600 text-white overflow-x-auto">
           {/* Projects table */}
           <table className="items-center w-full bg-transparent border-collapse">
             <thead>
