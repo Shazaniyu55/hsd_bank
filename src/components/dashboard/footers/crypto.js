@@ -34,9 +34,11 @@ export default function Crypto() {
 
 
           <div className="mb-4">
-        <label htmlFor="fullName" className="block text-sm font-medium text-black">
-          BTC
-        </label>
+       
+        <div className="flex justify-center items-center ">
+       
+
+
         <input
             type="text"
             placeholder="BTC"
@@ -45,15 +47,19 @@ export default function Crypto() {
             onChange={(e) => setAccountNumber(e.target.value)} 
             
           />
+
+
+
+        </div>
+        
       </div>
 
 
 
       <div className="mb-4">
-        <label htmlFor="fullName" className="block text-sm font-medium text-black">
-          USD
-        </label>
-        <input
+
+      <div className="flex justify-center items-center ">
+      <input
             type="text"
             placeholder="USD"
             className="md:w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
@@ -61,6 +67,10 @@ export default function Crypto() {
             onChange={(e) => setAccountNumber(e.target.value)} 
             
           />
+
+      </div>
+        
+      
       </div>
             
 
