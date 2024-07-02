@@ -27,10 +27,10 @@ export default function MobileDeposite() {
       <CardTable/> */}
       
 <div className="flex flex-wrap">
-        <div className="md:w-full bg-white mt-40 shadow-lg ">
+        <div className="md:w-full bg-blue-600 mt-40 shadow-lg ">
 
-          <h1 className="text-center  font-bold text-2xl">Mobile Deposite</h1>
-          <p className="text-center  font-bold text-2xl">submit your check for mobile deposite</p>
+          <h1 className="text-center text-white font-bold text-2xl">Mobile Deposite</h1>
+          <p className="text-center text-white font-bold text-2xl">submit your check for mobile deposite</p>
           <form className="md:flex flex-col gap-4 mt-10 p-8" onSubmit={handleLogin}>
 
             

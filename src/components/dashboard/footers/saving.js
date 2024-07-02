@@ -28,7 +28,7 @@ export default function Savings() {
       
 <div className="flex flex-wrap">
 
-          <div className="relative mt-40 w-full flex flex-col min-w-0 break-words bg-black rounded mb-6 xl:mb-0 shadow-lg">
+          <div className="relative mt-40 w-full flex flex-col min-w-0 break-words bg-blue-600 rounded mb-6 xl:mb-0 shadow-lg">
         <div className="flex-auto p-4">
           <div className="flex flex-wrap">
             <div className="relative w-full h-[80px] pr-4 max-w-full flex-grow flex-1">
@@ -52,7 +52,7 @@ export default function Savings() {
 
 
 
-      <div className="relative w-full flex flex-col min-w-0 break-words bg-black rounded mb-6 xl:mb-0 shadow-lg">
+      <div className="relative w-full flex flex-col min-w-0 break-words bg-blue-600 rounded mb-6 xl:mb-0 shadow-lg">
         <div className="flex-auto p-4">
           <div className="flex flex-wrap">
             <div className="relative w-full h-[80px] pr-4 max-w-full flex-grow flex-1">

@@ -12,7 +12,7 @@ function Transfer(){
     return(
         <>
         <Sidebar />
-        <div className="relative md:ml-64 bg-blueGray-100">
+        <div className="relative md:ml-64 bg-red-600">
           <AdminNavbar />
           {/* Header */}
          
