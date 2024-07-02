@@ -13,11 +13,11 @@ function Transfer(){
     return(
         <>
         <Sidebar />
-        <div className="relative md:ml-64 bg-blueGray-100">
+        <div className="relative md:ml-64 bg-red-600">
           <AdminNavbar />
           {/* Header */}
          
-          <div className="px-4 md:px-10 mx-auto w-full -m-24">
+          <div className="px-4 md:px-10 mx-auto bg-red-600 w-full -m-24">
             <FooterTransfer/>
           </div>
         </div>

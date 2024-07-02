@@ -27,14 +27,14 @@ export default function FooterTransfer() {
       <CardTable/> */}
       
 <div className="flex justify-center items-center p-10">
-        <div className="md:w-full bg-white mt-40 shadow-lg ">
+        <div className="md:w-full bg-blue-600 mt-40 shadow-lg ">
 
           <h1 className="text-center  font-bold text-2xl">Transfer Money</h1>
-          <form className="w-full max-w-md mx-auto p-6 bg-white m-4 p-4  rounded-md" onSubmit={handleLogin}>
+          <form className="w-full max-w-md mx-auto p-6 bg-blue-600  m-4 p-4  rounded-md" onSubmit={handleLogin}>
 
 
           <div className="mb-4">
-        <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
+        <label htmlFor="fullName" className="block text-sm font-medium text-black">
           Account Number
         </label>
         <input
@@ -50,7 +50,7 @@ export default function FooterTransfer() {
 
 
       <div className="mb-4">
-        <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
+        <label htmlFor="fullName" className="block text-sm font-medium text-black">
           Amount
         </label>
         <input

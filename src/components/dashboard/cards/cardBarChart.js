@@ -49,7 +49,7 @@ export default function CardPieChart() {
 
   return (
     <>
-      <div className="relative mt-40 flex flex-col bg-white shadow-lg rounded">
+      <div className="relative mt-40 flex flex-col bg-green-600 shadow-lg rounded">
         <p className="p-4 m-4">Balance Flow</p>
         <div className="p-4 flex-auto">
           {/* Chart */}
