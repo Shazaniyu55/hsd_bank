@@ -146,7 +146,8 @@ export default function CardTable({ color }) {
                   $3,150 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-red-500 mr-2"></i> cancled
+                  <i className="fas fa-circle text-red-500 mr-2"></i> canceled
+
                 </td>
                
                 
